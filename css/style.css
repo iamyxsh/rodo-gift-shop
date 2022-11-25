@@ -536,6 +536,7 @@ ul.btn li:last-child {
 	align-items: flex-start;
 	justify-content: center;
 	margin-top: 5rem;
+	width: 90%;
 }
 
 .product-section .picture-section {
