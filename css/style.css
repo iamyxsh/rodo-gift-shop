@@ -533,8 +533,61 @@ ul.btn li:last-child {
 .product-section {
 	display: flex;
 	flex-direction: row;
+	align-items: flex-start;
+	justify-content: center;
+	margin-top: 5rem;
+}
+
+.product-section .picture-section {
+	display: flex;
+	flex-direction: row;
 	align-items: center;
 	justify-content: center;
+	margin-right: 1rem;
+	width: 45%;
+	height: 100%;
+}
+
+.product-section .info-section {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	width: 45%;
+}
+
+.info-section .title {
+	font-size: 5rem;
+}
+
+.info-section .price {
+	font-size: 2rem;
+	margin-bottom: 5rem;
+}
+
+.desc-list {
+	list-style: circle;
+}
+
+.btn-section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	margin-top: 2rem;
+}
+
+.btn-section .btn {
+	background-color: #ff635a;
+	width: 45%;
+	height: 2.5rem;
+	color: white;
+	border-radius: 5px;
+	font-size: 1rem;
+}
+
+.btn a {
+	color: inherit;
 }
 
 .product_gift {
@@ -542,6 +595,20 @@ ul.btn li:last-child {
 	padding: 0px 22px 22px 22px;
 	margin: 0.5rem;
 	width: 15rem;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.product-section .top .picture {
+	height: 12rem;
+}
+
+.product-conatiner {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
 }
 
 .product-left {
@@ -551,6 +618,9 @@ ul.btn li:last-child {
 
 .product .top {
 	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: center;
 }
 
 .new {
@@ -592,6 +662,14 @@ ul.btn li:last-child {
 .produc_img figure img {
 	width: 100%;
 	height: 697px;
+}
+
+.page {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+	padding: 5rem;
 }
 
 .long_main {
