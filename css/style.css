@@ -536,7 +536,8 @@ ul.btn li:last-child {
 	align-items: flex-start;
 	justify-content: center;
 	margin-top: 5rem;
-	width: 90%;
+	padding: 5rem;
+	flex-wrap: wrap;
 }
 
 .product-section .picture-section {
@@ -1138,4 +1139,21 @@ ul.footer_literx li {
 }
 .inner_page .gift {
 	margin-bottom: 90px;
+}
+
+.blog_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem;
+	flex-wrap: wrap;
+}
+
+.blog {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 30vw;
+	margin: 0 1rem;
 }
